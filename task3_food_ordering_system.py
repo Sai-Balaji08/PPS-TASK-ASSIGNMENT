@@ -9,14 +9,12 @@
 menu = {1: ("Pizza", 200), 2: ("Burger", 120), 3: ("Sandwich", 100)}
 
 def display_menu():
-    """Display the food menu."""
     print("\n===== MENU =====")
-    for id, (name, price) in menu.items():
-        print(f"{id}. {name} - Rs.{price}")
+    for item_id, (name, price) in menu.items():
+        print(f"{item_id}. {name} - Rs.{price}")
     print("================")
 
 def place_order():
-    """Take food order and calculate total bill."""
     total_bill = 0
     n = int(input("How many items to order? "))
     for _ in range(n):
