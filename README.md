@@ -146,6 +146,7 @@ Total Bill: Rs.520
 
 ## 📹 Video Explanation
 A video walkthrough explaining all three tasks, their logic, and live code execution is available in the repository.
+video link - " https://youtu.be/6qIlvI1wNoA "
 
 ---
 
